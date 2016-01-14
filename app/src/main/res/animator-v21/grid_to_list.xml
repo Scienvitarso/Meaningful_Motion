@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:propertyName="pathData"
+    android:duration="@integer/duration"
+    android:valueFrom="@string/path_view_grid"
+    android:valueTo="@string/path_view_list"
+    android:interpolator="@android:interpolator/fast_out_slow_in"
+    android:valueType="pathType"
+    />
+

@@ -1,7 +1,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.fsantana.meaningfulmotion.MainActivity">
+    tools:context=".Activity.MainActivity">
+
+    <item
+        android:id="@+id/action_change_view"
+        android:title="change view"
+        android:icon="@drawable/icon_view_list"
+        app:showAsAction="ifRoom"/>
+
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"

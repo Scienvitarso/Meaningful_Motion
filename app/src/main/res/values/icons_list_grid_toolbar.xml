@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- geometry -->
+    <string name="viewport_width">24</string>
+    <string name="viewport_height">24</string>
+    <integer name="viewport_center_x">12</integer>
+    <integer name="viewport_center_y">12</integer>
+    
+    <!--String path example: M3,11H11V3H3M3,21H11V13H3M13,21H21V13H13M13,3V11H21V3 -->
+    <string name="path_view_grid">M 0.0,0.0 V 0.0 H 0.0 V 0.0 M 0.0,0.0 H 0.0 V 0.0 H 0.0 M 3.0,11.0 H 11.0 V 3.0 H 3.0 M 3.0,21.0 H 11.0 V 13.0 H 3.0 M 13.0,21.0 H 21.0 V 13.0 H 13.0 M 13.0,3.0 H 13.0 V 11.0 H 21.0 V 3.0 L 21.0,3.0 </string>
+    <string name="path_view_list">M 9.0,5.0 V 9.0 H 21.0 V 5.0 M 9.0,19.0 H 21.0 V 15.0 H 9.0 M 9.0,14.0 H 21.0 V 10.0 H 9.0 M 4.0,9.0 H 8.0 V 5.0 H 4.0 M 4.0,19.0 H 8.0 V 15.0 H 4.0 M 4.0,14.0 H 8.0 V 10.0 H 4.0 V 14.0 L 4.0,14.0</string>
+    <!-- Names -->
+    <string name="vector_icon_view_grid">vector_icon_view_grid</string>
+    <string name="vector_icon_view_list">vector_icon_view_list</string>
+    <!-- Colors -->
+    <color name="color_icon_white">#FFFFFFFF</color>
+    <!--timing animation -->
+    <integer name="duration">450</integer>
+</resources>

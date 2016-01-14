@@ -3,28 +3,29 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:padding="@dimen/item_padding"
-    android:layout_height="@dimen/item_list_height">
+    android:layout_height="@dimen/item_list_height"
+    android:background="?android:attr/selectableItemBackground">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="@dimen/avatar_size"
         android:layout_height="@dimen/avatar_size"
-        android:id="@+id/avatar_imageview"
+        android:id="@+id/item_list_avatar_imageview"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:src="@drawable/fernanda"
+        android:transitionName="@string/transition_avatar"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@id/avatar_imageview"
+        android:layout_toRightOf="@id/item_list_avatar_imageview"
         android:paddingLeft="@dimen/item_padding"
         android:layout_marginRight="@dimen/item_padding"
         android:text="Fernanda Yukari"
         android:textStyle="bold"
         android:textColor="@android:color/black"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:id="@+id/item_list_title_textview"
          />
 
@@ -34,9 +35,9 @@
         android:paddingLeft="@dimen/item_padding"
         android:id="@+id/item_list_subtitle_textview"
         android:text="Bacon"
-        android:textSize="16sp"
+        android:textSize="14sp"
         android:layout_below="@+id/item_list_title_textview"
-        android:layout_toRightOf="@+id/avatar_imageview"
-        android:layout_toEndOf="@+id/avatar_imageview" />
+        android:layout_toRightOf="@+id/item_list_avatar_imageview"
+        android:layout_toEndOf="@+id/item_list_avatar_imageview" />
 
 </RelativeLayout>

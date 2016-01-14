@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/icon_view_grid">
+
+    <target
+        android:animation="@animator/grid_to_list"
+        android:name="@string/vector_icon_view_grid"/>
+
+</animated-vector>

@@ -5,5 +5,8 @@
         <item name="windowNoTitle">true</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- Transition animation -->
+        <item name="android:windowExitTransition">@transition/list_exit</item>
+        <item name="android:windowContentTransitions">true</item>
     </style>
 </resources>
