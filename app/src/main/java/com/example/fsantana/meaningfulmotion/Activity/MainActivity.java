@@ -65,10 +65,14 @@ public class MainActivity extends AppCompatActivity  {
     }
 
     private void addItem(MyAdapter adapter) {
+        for(int i = 0; i < 30; i++) {
+            adapter.addItem(new Person("Person " + i, "Subtitle", R.drawable.fernanda));
+            i++;
+            adapter.addItem(new Person("Person " + i, "Subtitle", R.drawable.fabio));
+            i++;
+            adapter.addItem(new Person("Person " + i, "SubTitle", R.drawable.bruna));
+        }
 
-        adapter.addItem(new Person("Fernanda Yukari", "Batata com bacon e cheddar", R.drawable.fernanda));
-        adapter.addItem(new Person("Mylena Natsumi Maeda", "Batata com bacon", R.drawable.mylena));
-        adapter.addItem(new Person("Bruna Yukimy", "Batata frita", R.drawable.bruna));
     }
 
     private void clearItens(MyAdapter adapter) {
