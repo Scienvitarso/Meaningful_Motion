@@ -3,4 +3,3 @@
 
 [![Throughput Graph](https://graphs.waffle.io/Scienvitarso/Meaningful_Motion/throughput.svg)](https://waffle.io/Scienvitarso/Meaningful_Motion/metrics)
 
-<img src="art/art1.gif" width="32%">
